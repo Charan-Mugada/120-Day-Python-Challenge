@@ -1,0 +1,5 @@
+li=list(map(int,input().split()))
+m=max(li)
+s1=set(range(m+1))
+result=sorted(s1-set(li))
+print(result)
